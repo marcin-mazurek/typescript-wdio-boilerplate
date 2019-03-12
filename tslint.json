@@ -1,0 +1,24 @@
+{
+  "extends": ["tslint:recommended"],
+  "rules": {
+    "no-console": [true, "warn"],
+    "quotemark": [true, "single", "avoid-escape"],
+    "max-line-length": [
+      "error",
+      {
+        "properties": {
+          "ignore-pattern": {
+            "type": "string"
+          }
+        }
+      }
+    ],
+    "indent": ["error", 2],
+    "no-unused-expression": [false],
+    "object-literal-sort-keys": [false],
+    "ordered-imports": [false],
+    "member-access": [true, "no-public"],
+    "trailing-comma": [false],
+    "no-empty": [false]
+  }
+}

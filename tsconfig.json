@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "module": "commonjs",
+    "paths": {
+      "*": ["./*"],
+      "test/*": ["./test/*"]
+    },
+    "types": ["node", "@wdio/sync", "@wdio/mocha-framework", "chai"],
+    "target": "es5",
+    "allowJs": true
+  },
+  "include": ["./test/**/*.ts"]
+}
